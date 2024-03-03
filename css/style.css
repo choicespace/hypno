@@ -1,0 +1,415 @@
+*, html { margin: 0; padding: 0; }
+
+body {
+background: #fff;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: normal;
+color: #252B33;
+}
+
+
+@font-face {
+    font-family: "Calibri";
+    src: url("..fonts/Calibri.woff2") format("woff2"),
+        url("..fonts/Calibri.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibri";
+    src: url("..fonts/Calibri-BoldItalic.woff2") format("woff2"),
+        url("..fonts/Calibri-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibri";
+    src: url("..fonts/Calibri-Bold.woff2") format("woff2"),
+        url("..fonts/Calibri-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+i {font-family: FontAwesome;}
+
+ul{ margin:0px; padding:0px; }
+li { list-style:none; }
+a { text-decoration:none;
+transition: all .4s ease-in-out 0s !important;
+-webkit-transition: all .4s ease-in-out 0s !important;
+-moz-transition: all .4s ease-in-out 0s;
+-o-transition: all .4s ease-in-out 0s;
+-ms-transition: all .4s ease-in-out 0s; }
+
+a:active, a:focus, a:hover { text-decoration: none; }
+img{ outline:none; text-decoration:none; transition: all .4s ease-in-out 0s; }
+button { border:0px; outline:0px; }
+
+
+p { margin:0px; padding:0px;  font-family: 'Poppins', sans-serif;font-size:18px; }
+
+h1, h2, h3, h4, h5, h6 { margin:0px; padding:0px; font-family: 'Poppins', sans-serif; line-height:normal; }
+
+h2 { font-size:36px; line-height:42px; }
+h3 { font-size:30px; line-height:38px; }
+h4 { font-size:26px; line-height:32px; }
+h5 { font-size:22px; line-height:30px; }
+h6 { font-size:20px; line-height:28px; }
+
+
+.fontstyle-italic{ font-style:italic; }
+
+
+/*font-weight CSS*/
+.font-weight400{ font-weight:400 !important;}
+.font-weight500{ font-weight:500 !important;}
+.font-weight600{ font-weight:600 !important;}
+.font-weight700{ font-weight:700 !important;}
+.font-weight800{ font-weight:800 !important;}
+
+/*Padding Top*/
+.pdm-top5{padding-top:5px !important;}
+.pdm-top10{padding-top:10px !important;}
+.pdm-top15{padding-top:15px !important;}
+.pdm-top20{padding-top:20px !important;}
+.pdm-top25{padding-top:25px !important;}
+.pdm-top30{padding-top:30px !important;}
+.pdm-top35{padding-top:30px !important;}
+.pdm-top40{padding-top:40px !important;}
+
+/*Padding bottom*/
+.pdm-bottom5{padding-bottom:5px !important;}
+.pdm-bottom10{padding-bottom:10px !important;}
+.pdm-bottom15{padding-bottom:15px !important;}
+.pdm-bottom20{padding-bottom:20px !important;}
+.pdm-bottom25{padding-bottom:25px !important;}
+.pdm-bottom30{padding-bottom:30px !important;}
+.pdm-bottom35{padding-bottom:30px !important;}
+.pdm-bottom40{padding-bottom:40px !important;}
+
+/*--------------------------------------------------------------
+# Hypno Sensing Welcome Section
+--------------------------------------------------------------*/
+section{ padding:80px 0px; }
+
+.gray-bgcolor{ background:#fafafa; }
+
+
+.dark-blue{ color:#1d3573; }
+
+
+.more-interested {
+	padding: 20px 20px;
+	font-size: 20px;
+	background: #75b5cf;
+	color: #fff;
+	text-align: center;
+}
+
+.more-interested span {
+    font-size: 26px;
+}
+
+.thoughts-img img { width:100%; }
+
+.clients-imgs img { border-radius: 100%; }
+
+.founder-names { text-align:right; margin-top: 10px; }
+h6.marjoriegreen{ font-size:22px; text-align:right; color:#054eb7; margin-bottom:5px; }
+.founder-names  p { font-size:16px; color:#054eb7; }
+
+
+.btnwithspan {
+  animation: shadow-pulse 1.5s infinite;
+}
+
+.btnwithspan:hover, .btnwithspan:focus {
+  animation: shadow-pulse-hover 1.5s infinite;
+}
+
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(95, 160, 186, 0.8);
+    
+  }
+  100% {
+    box-shadow: 0 0 6px 25px rgba(95, 160, 186, 0);
+    
+  }
+}
+
+@keyframes shadow-pulse-hover
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(95, 160, 186, 0.8);
+    
+  }
+  100% {
+    box-shadow: 0 0 0px 0px rgba(95, 160, 186, 0);
+    
+  }
+}
+
+
+
+
+.quotes-instance { margin-top:80px; }
+.quotes-instance li { display:block; margin:10px 0px 0px 0px; font-size: 24px; font-style: italic; }
+.quotes-instance li span { color:#051a20; font-style: normal; font-size: 18px; display:block; }
+
+.quotes-instance li  span.quate-sizes { font-size:60px; color: #75b5cf; position: relative; top:15px; line-height:15px;
+  font-family: "Calibri"; display: inline-block; }
+
+.hypno-videos { margin-top: 15px; }
+
+.hypno-video-description { margin-top:70px; }
+.hypno-video-description h3{ margin:0 0 15px 0px; }
+
+.recorded-videos{ margin-top:70px; border:1px solid #ddd; padding:8px 11px 8px 11px; }
+.recorded-videos iframe{ padding:0px !important; margin:0px !important; border:0px !important;
+	position:relative; top:2px; }
+
+
+.share-experience p { font-size:26px; font-style:italic; color:#0b1c3a; margin:0 0 20px 0px; }
+.share-experience h6 { color:#054eb7; }
+
+
+.share-experience p span.quate-sizes { font-size: 60px;
+    color: rgb(117, 181, 207);
+    position: relative;
+    top: 20px;
+    line-height: 15px;
+    font-family: "Calibri";
+    font-style: normal;
+     }
+
+
+/*About Us Pages*/
+.quate-sizes { font-size: 60px;
+  color: #75b5cf;
+  position: relative;
+  top: 25px;
+  line-height: 5px;
+  font-family: "Calibri"; }
+
+
+/*Contact Us Page*/
+.contact-info p{ line-height:34px; font-size:18px; font-weight:500; }
+.contact-info p span{ font-size:20px; width:32px; display:inline-block; color: #75b5cf; }
+
+.contact-info a { color:#252B33; }
+.contact-info a:hover, .contact-info a:focus { color:#75b5cf; }
+
+
+/* new css */
+
+.small-img{
+  max-width: 60%;
+}
+
+
+.new-quote-size li {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.new-quote-size li:last-child {
+  margin-bottom: 0; 
+}
+
+.new-quote-size li span{
+  font-size: 20px;
+}
+
+
+@media (max-width: 575.98px) { 
+body { font-size:15px;  }
+section { padding: 30px 0px; }
+
+.pdm-bottom20 { padding-bottom:15px !important; }
+
+
+h3 { font-size: 20px;  line-height: 26px; }
+h6 { font-size: 16px; line-height: 24px; }
+
+
+
+
+.hypno-text { text-align: center; }
+
+.more-interested {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 15px;
+}
+
+.more-interested span {
+  font-size: 20px;
+}
+
+.refused-energy { text-align: center;
+  margin-bottom: 20px;
+}
+
+.quotes-instance {
+  margin-top: 40px;
+}
+
+.quotes-instance li {
+  margin: 10px 0px 0px 0px;
+  font-size: 18px;
+  }
+
+.quotes-instance li span {
+  font-size: 16px;
+}  
+
+.quotes-instance li br { display:none; }
+
+.quotes-instance li span.quate-sizes {
+  font-size: 50px;
+  top: 14px;
+  line-height: 15px;
+
+}
+
+.hypno-video-description {
+  margin-top: 30px;
+  text-align: center;
+}
+.recorded-videos {
+  margin-top:40px;
+}
+
+.share-experience p {
+  font-size: 20px;
+  margin: 0 0 15px 0px;
+  line-height: 26px;
+}
+
+.share-experience p span.quate-sizes {
+  font-size: 50px;
+  top: 14px;
+  line-height: 15px;
+}
+
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+body { font-size:15px;  }
+section { padding: 40px 0px; }
+
+
+h3 { font-size: 24px;  line-height: 30px; }
+h6 { font-size: 18px; line-height: 26px; }
+
+.hypno-text { text-align: center; }
+
+.more-interested {
+  font-size: 18px;
+}
+.more-interested span {
+  font-size: 22px;
+}
+
+.refused-energy { text-align: center;
+  margin-bottom: 20px;
+}
+
+.quotes-instance {
+  margin-top: 40px;
+}
+
+.quotes-instance li {
+  margin: 10px 0px 0px 0px;
+  font-size: 20px;
+  }
+
+.quotes-instance li span {
+  font-size: 16px;
+}  
+
+.quotes-instance li br { display:none; }
+
+.quotes-instance li span.quate-sizes {
+  font-size: 50px;
+  top: 14px;
+  line-height: 15px;
+
+}
+
+.hypno-video-description {
+  margin-top: 30px;
+  text-align: center;
+}
+.recorded-videos {
+  margin-top:40px;
+}
+
+.share-experience p {
+  font-size: 22px;
+  margin: 0 0 15px 0px;
+  line-height: 30px;
+}
+
+.share-experience p span.quate-sizes {
+  font-size: 50px;
+  top: 14px;
+  line-height: 15px;
+}
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+body { font-size:15px;  }
+section { padding: 50px 0px; }
+
+h3 { font-size: 24px;  line-height: 30px; }
+h6 { font-size: 20px; line-height: 28px; }
+
+.quotes-instance li {
+  margin: 10px 0px 0px 0px;
+  font-size: 20px;
+}
+.quotes-instance li span {
+  font-size: 16px;
+}
+
+.quotes-instance li span.quate-sizes {
+  font-size: 52px;
+  top: 15px;
+ }
+
+.more-interested {
+  font-size: 18px;
+}
+
+
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+
+
+
+ }
